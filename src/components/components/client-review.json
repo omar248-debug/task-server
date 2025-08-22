@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_client_reviews",
+  "info": {
+    "displayName": "Client Review"
+  },
+  "options": {},
+  "attributes": {
+    "clientSaying": {
+      "type": "text"
+    },
+    "clientName": {
+      "type": "string"
+    },
+    "clientPosition": {
+      "type": "string"
+    },
+    "clientPhoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

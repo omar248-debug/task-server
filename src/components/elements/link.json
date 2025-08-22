@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_elements_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "dropdown": {
+      "type": "component",
+      "component": "elements.dropdown-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

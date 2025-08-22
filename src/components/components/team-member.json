@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_components_team_members",
+  "info": {
+    "displayName": "Team Member"
+  },
+  "options": {},
+  "attributes": {
+    "memberName": {
+      "type": "string"
+    },
+    "memberWhatsApp": {
+      "type": "string"
+    },
+    "memberPhone": {
+      "type": "string"
+    },
+    "memberPosition": {
+      "type": "string"
+    },
+    "memberEmail": {
+      "type": "email"
+    },
+    "memberPhoto": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

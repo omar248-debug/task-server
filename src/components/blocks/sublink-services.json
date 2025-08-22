@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_sublink_services_s",
+  "info": {
+    "displayName": "Sublink Services "
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pointsLink": {
+      "type": "component",
+      "component": "components.points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

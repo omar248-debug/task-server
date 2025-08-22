@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_testimonials_blocks",
+  "info": {
+    "displayName": "Testimonials Block"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "review": {
+      "type": "component",
+      "component": "components.client-review",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
